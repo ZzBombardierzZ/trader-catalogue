@@ -99,7 +99,7 @@ to the serverTraders array, so you should have something like this.
 serverTraders = ["trader_catalog","FR_AC","GUE_Commander","GUE_Woodlander2","RU_Citizen4","Villager1","Profiteer1","Rita_Ensler_EP1","Dr_Hladik_EP1","Worker2","TK_CIV_Worker01_EP1","CIV_EuroMan01_EP1","CIV_EuroMan02_EP1","RU_WorkWoman5","Doctor","Worker1","TK_CIV_Worker02_EP1","Rocker4","RU_Citizen3","RU_WorkWoman1","Dr_Annie_Baker_EP1","Worker3","RU_Pilot","RU_Villager3","HouseWife1","Profiteer2","Profiteer3","Functionary1_EP1"];
 ```
 Next at the bottom of **server_traders.sqf** add the categories you want to display in the menu.
-
+(https://github.com/EpochModTeam/DayZ-Epoch/tree/3337c5a74996e374225c341f7af944f7c6646ddb/SQF/dayz_code/system/mission/server_traders)
 ```
 
 menu_trader_catalog= [
