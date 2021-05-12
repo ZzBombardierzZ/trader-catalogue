@@ -2,6 +2,7 @@
 
 
 **Epoch Trader Catalog**
+
 Show Trader items with previews for most items. 
 
 ![GitHub Logo](http://puu.sh/HFDs4/6f728a84ce.png)
@@ -162,5 +163,6 @@ Move the Catalogue folder into your scripts folder (assuming you're using https:
 ## Acknowledgments
 
 Zupa and the Epoch devs. 
+
 Ebay - Enhance spawn previews was very helpful, VASP mod aswell
 
