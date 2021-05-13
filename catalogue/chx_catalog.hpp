@@ -1,7 +1,7 @@
 ﻿class TradingCatalogue {
 		idd = 711197;
 		movingEnabled = false;
-		onload = "player setVariable['isBusy',true,true];vehicle_bot=objNull; preview_bot=objNull; preview_camera cameraEffect ['terminate','back']; camDestroy preview_camera; preview_camera = nil; preview_cameraPos = nil; "; 
+		onload = "systemChat 'Press 4 and 6 to rotate left and right.';  player setVariable['isBusy',true,true];vehicle_bot=objNull; preview_bot=objNull; preview_camera cameraEffect ['terminate','back']; camDestroy preview_camera; preview_camera = nil; preview_cameraPos = nil; "; 
 		onUnload = "Z_AdvancedTradingInit = Nil; player setVariable['isBusy',false,true]; deleteVehicle vehicle_bot; deleteVehicle preview_bot; vehicle_bot=objNull; preview_bot=objNull; preview_camera cameraEffect ['terminate','back']; camDestroy preview_camera; preview_camera = nil; preview_cameraPos = nil; ";
 	class Controls {
 		class CHXCATALOGLBG: CHX_RscPicture {
