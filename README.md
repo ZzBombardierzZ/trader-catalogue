@@ -1,8 +1,4 @@
 # Epoch-Trader-Catalog
-
-
-**Epoch Trader Catalog**
-
 Show Trader items with previews for most items. 
 
 ![GitHub Logo](http://puu.sh/HFDs4/6f728a84ce.png)
@@ -32,6 +28,7 @@ Save and close.
 
 
 
+
 //-------------------------------------------------------------------------
 
 In your **variables.sqf** find
@@ -52,6 +49,7 @@ Below that paste
 ```
 
 Save and close.
+
 
 
 
@@ -84,6 +82,7 @@ Below that paste
 ```
 
 Save and close.
+
 
 
 
@@ -191,7 +190,9 @@ Move the Catalogue folder into your scripts folder (assuming you're using https:
 
 
 
+
 **Install Complete**
+
 
 
 
