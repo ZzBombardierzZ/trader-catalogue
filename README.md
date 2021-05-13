@@ -12,7 +12,7 @@ Show Trader items with previews for most items.
 ### Prerequisites
 
 ```
-a custom compliles.sqf, keyboard.sqf and server_traders.sqf
+a custom compliles.sqf, variables.sqf keyboard.sqf and server_traders.sqf
 ```
 
 
@@ -29,6 +29,27 @@ In your **description.ext** at the bottom paste
 
 Save and close.
 
+
+
+
+In your **variables.sqf** find
+
+```
+if (!isDedicated) then {
+```
+
+Below that paste
+
+```
+	weapon_preview=objNull;
+	vehicle_bot=objNull;
+	preview_bot=objNull;
+	preview_camera = nil;
+	preview_cameraPos = nil; 
+
+```
+
+Save and close.
 
 
 
