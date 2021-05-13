@@ -32,6 +32,8 @@ Save and close.
 
 
 
+//-------------------------------------------------------------------------
+
 In your **variables.sqf** find
 
 ```
@@ -53,6 +55,8 @@ Save and close.
 
 
 
+
+//-------------------------------------------------------------------------
 
 In your **compiles.sqf** find
 
@@ -84,6 +88,10 @@ Save and close.
 
 
 
+
+
+//-------------------------------------------------------------------------
+
 Next, open your **keyboard.sqf**, scroll to the bottom and above the last 
 ```
 _handled
@@ -111,6 +119,10 @@ Paste
 
 
 
+
+
+
+//-------------------------------------------------------------------------
 
 Open your **server_traders.sqf** and add 
 ```
@@ -175,6 +187,8 @@ menu_trader_catalog= [
 
 
 Move the Catalogue folder into your scripts folder (assuming you're using https://github.com/oiad/modPack)
+
+
 
 
 **Install Complete**
