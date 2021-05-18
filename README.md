@@ -8,7 +8,7 @@ Show Trader items with previews for most items.
 ### Prerequisites
 
 ```
-a custom compliles.sqf, variables.sqf keyboard.sqf and server_traders.sqf
+a custom compliles.sqf, variables.sqf keyboard.sqf and server_traders.sqf/chernarus11.sqf
 ```
 
 
@@ -123,7 +123,7 @@ Paste
 
 //-------------------------------------------------------------------------
 
-Open your **server_traders.sqf** and add 
+Open your **chernarus11.sqf** and add 
 ```
 "trader_catalog"
 ```
