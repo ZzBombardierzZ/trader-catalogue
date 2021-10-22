@@ -5,6 +5,7 @@
 disableSerialization;
 
 if (!(isNull (findDisplay 711197))) exitwith  { closeDialog 0; };
+if (dayz_autoRun) then {call dayz_autoRunOff;};
 if (dayz_actionInProgress) exitWith { localize "str_player_actionslimit" call dayz_rollingMessages; };
 
 Z_traderData = (menu_trader_catalog select 0); 
